@@ -1,0 +1,366 @@
+[
+  {
+    "id": "1",
+    "title": "Will Icon 360 win the Wings Awards overall category?",
+    "category": "Awards",
+    "baseProb": 68,
+    "volume": 50000
+  },
+  {
+    "id": "2",
+    "title": "Will Tuesday Chapel end before 9:15 PM?",
+    "category": "Spirituality",
+    "baseProb": 20,
+    "volume": 50000
+  },
+  {
+    "id": "3",
+    "title": "Chancellor Cup: Building Tech vs. Comp Sci Final?",
+    "category": "Sports",
+    "baseProb": 45,
+    "volume": 50000
+  },
+  {
+    "id": "4",
+    "title": "New ATM installed in the Shopping Mall by May?",
+    "category": "Infrastructure",
+    "baseProb": 15,
+    "volume": 50000
+  },
+  {
+    "id": "5",
+    "title": "Next CUSC Chairman to emerge from Engineering?",
+    "category": "Politics",
+    "baseProb": 72,
+    "volume": 50000
+  },
+  {
+    "id": "6",
+    "title": "Library Wi-Fi uptime remains above 95% this week?",
+    "category": "Tech",
+    "baseProb": 30,
+    "volume": 50000
+  },
+  {
+    "id": "7",
+    "title": "Alpha Semester results released in under 21 days?",
+    "category": "Academics",
+    "baseProb": 12,
+    "volume": 50000
+  },
+  {
+    "id": "8",
+    "title": "Caf 2 Jollof rice price increase by next month?",
+    "category": "Lifestyle",
+    "baseProb": 55,
+    "volume": 50000
+  },
+  {
+    "id": "9",
+    "title": "Shuttle fares remain flat throughout the session?",
+    "category": "Campus Life",
+    "baseProb": 40,
+    "volume": 50000
+  },
+  {
+    "id": "10",
+    "title": "Signed Out portal crashes on the first day of release?",
+    "category": "Tech",
+    "baseProb": 85,
+    "volume": 50000
+  },
+  {
+    "id": "11",
+    "title": "Will a 100L student win the university Spelling Bee?",
+    "category": "Awards",
+    "baseProb": 35,
+    "volume": 50000
+  },
+  {
+    "id": "12",
+    "title": "Guest Minister confirmed for next Sunday Service?",
+    "category": "Spirituality",
+    "baseProb": 90,
+    "volume": 50000
+  },
+  {
+    "id": "13",
+    "title": "Inter-Hall Basketball: Hall 8 vs Hall 4 Final?",
+    "category": "Sports",
+    "baseProb": 60,
+    "volume": 50000
+  },
+  {
+    "id": "14",
+    "title": "New water dispensers added to all hostel blocks?",
+    "category": "Infrastructure",
+    "baseProb": 25,
+    "volume": 50000
+  },
+  {
+    "id": "15",
+    "title": "CUSC Manifesto night duration exceeds 5 hours?",
+    "category": "Politics",
+    "baseProb": 80,
+    "volume": 50000
+  },
+  {
+    "id": "16",
+    "title": "Overall BGS for the year emerges from CST College?",
+    "category": "Academics",
+    "baseProb": 55,
+    "volume": 50000
+  },
+  {
+    "id": "17",
+    "title": "New food vendor 'Chicken Republic' opens in Caf 1?",
+    "category": "Lifestyle",
+    "baseProb": 40,
+    "volume": 50000
+  },
+  {
+    "id": "18",
+    "title": "Total 100L enrollment exceeds 2,500 students?",
+    "category": "Campus Life",
+    "baseProb": 70,
+    "volume": 50000
+  },
+  {
+    "id": "19",
+    "title": "Will the 11 PM curfew be strictly enforced for 400L?",
+    "category": "Rules",
+    "baseProb": 95,
+    "volume": 50000
+  },
+  {
+    "id": "20",
+    "title": "Dress Code manual update issued this semester?",
+    "category": "Rules",
+    "baseProb": 50,
+    "volume": 50000
+  },
+  {
+    "id": "21",
+    "title": "Will Hall 7 win the Hostel Decoration contest?",
+    "category": "Socials",
+    "baseProb": 82,
+    "volume": 50000
+  },
+  {
+    "id": "22",
+    "title": "Freshers Gala happens within the first month?",
+    "category": "Socials",
+    "baseProb": 65,
+    "volume": 50000
+  },
+  {
+    "id": "23",
+    "title": "Seven Spirits to hold a surprise outdoor concert?",
+    "category": "Spirituality",
+    "baseProb": 30,
+    "volume": 50000
+  },
+  {
+    "id": "24",
+    "title": "Chancellor Cup Final goes to a penalty shootout?",
+    "category": "Sports",
+    "baseProb": 15,
+    "volume": 50000
+  },
+  {
+    "id": "25",
+    "title": "Will a female student win CUSC General Secretary?",
+    "category": "Politics",
+    "baseProb": 75,
+    "volume": 50000
+  },
+  {
+    "id": "26",
+    "title": "Mobile Phone policy relaxed for final year students?",
+    "category": "Rules",
+    "baseProb": 5,
+    "volume": 50000
+  },
+  {
+    "id": "27",
+    "title": "E-Voting portal uptime 100% during elections?",
+    "category": "Tech",
+    "baseProb": 40,
+    "volume": 50000
+  },
+  {
+    "id": "28",
+    "title": "New Gym equipment arrives before mid-semester?",
+    "category": "Infrastructure",
+    "baseProb": 20,
+    "volume": 50000
+  },
+  {
+    "id": "29",
+    "title": "Will 'Bread & Butter' vendor relocate to the Mall?",
+    "category": "Lifestyle",
+    "baseProb": 50,
+    "volume": 50000
+  },
+  {
+    "id": "30",
+    "title": "Next Town Hall meeting hosted in the Chapel?",
+    "category": "Politics",
+    "baseProb": 10,
+    "volume": 50000
+  },
+  {
+    "id": "31",
+    "title": "Wings Awards: 'Most Influential' goes to a 300L?",
+    "category": "Awards",
+    "baseProb": 42,
+    "volume": 50000
+  },
+  {
+    "id": "32",
+    "title": "Night reading allowed in Cafeterias this exam?",
+    "category": "Academics",
+    "baseProb": 30,
+    "volume": 50000
+  },
+  {
+    "id": "33",
+    "title": "Will there be a bonus 'Casual Wear' day?",
+    "category": "Rules",
+    "baseProb": 15,
+    "volume": 50000
+  },
+  {
+    "id": "34",
+    "title": "Hall 2 vs Hall 1: Who wins the Tug of War?",
+    "category": "Sports",
+    "baseProb": 50,
+    "volume": 50000
+  },
+  {
+    "id": "35",
+    "title": "Will the VC host a student breakfast session?",
+    "category": "Politics",
+    "baseProb": 5,
+    "volume": 50000
+  },
+  {
+    "id": "36",
+    "title": "AI-Powered Defense platform wins Best Project?",
+    "category": "Academics",
+    "baseProb": 88,
+    "volume": 50000
+  },
+  {
+    "id": "37",
+    "title": "Market Mania reaches 1,000 active users?",
+    "category": "Tech",
+    "baseProb": 92,
+    "volume": 50000
+  },
+  {
+    "id": "38",
+    "title": "Sunday Service ends before 12:30 PM?",
+    "category": "Spirituality",
+    "baseProb": 45,
+    "volume": 50000
+  },
+  {
+    "id": "39",
+    "title": "Will a startup get ₦2M funding at Pitch Deck?",
+    "category": "Socials",
+    "baseProb": 38,
+    "volume": 50000
+  },
+  {
+    "id": "40",
+    "title": "Library adds 50 new high-performance PCs?",
+    "category": "Infrastructure",
+    "baseProb": 60,
+    "volume": 50000
+  },
+  {
+    "id": "41",
+    "title": "Will the 'Signed Out' list be under 500 names?",
+    "category": "Campus Life",
+    "baseProb": 25,
+    "volume": 50000
+  },
+  {
+    "id": "42",
+    "title": "Hall 10 Wi-Fi speed exceeds 50Mbps tonight?",
+    "category": "Tech",
+    "baseProb": 10,
+    "volume": 50000
+  },
+  {
+    "id": "43",
+    "title": "Wings Awards 'Best Artist' goes to a rapper?",
+    "category": "Awards",
+    "baseProb": 55,
+    "volume": 50000
+  },
+  {
+    "id": "44",
+    "title": "Will there be a 10% increase in merit scholarships?",
+    "category": "Academics",
+    "baseProb": 20,
+    "volume": 50000
+  },
+  {
+    "id": "45",
+    "title": "Will Caf 1 serve pounded yam on Friday?",
+    "category": "Lifestyle",
+    "baseProb": 70,
+    "volume": 50000
+  },
+  {
+    "id": "46",
+    "title": "Chancellor Cup attendance breaks 5,000 people?",
+    "category": "Sports",
+    "baseProb": 80,
+    "volume": 50000
+  },
+  {
+    "id": "47",
+    "title": "Will 'The Hebron Post' release a physical edition?",
+    "category": "Socials",
+    "baseProb": 5,
+    "volume": 50000
+  },
+  {
+    "id": "48",
+    "title": "CUSC President to veto a new senate bill?",
+    "category": "Politics",
+    "baseProb": 30,
+    "volume": 50000
+  },
+  {
+    "id": "49",
+    "title": "Will the new LT be named after the Chancellor?",
+    "category": "Infrastructure",
+    "baseProb": 95,
+    "volume": 50000
+  },
+  {
+    "id": "50",
+    "title": "Will overall student GPA average rise this term?",
+    "category": "Academics",
+    "baseProb": 50,
+    "volume": 50000
+  },
+  {
+    "id": "hjql6zuj3",
+    "title": "Would College Building of Medicine Finish Before August",
+    "category": "Sports",
+    "baseProb": 60,
+    "volume": 50000
+  },
+  {
+    "id": "4n84xiyrw",
+    "title": "CHANCELLORS CUP: COMPUTER ENGINEERING TO WIN BIOLOGY",
+    "category": "Sports",
+    "baseProb": 60,
+    "volume": 10000
+  }
+]

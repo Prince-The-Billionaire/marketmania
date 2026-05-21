@@ -1,18 +1,21 @@
+// src/components/StoreInitializer.tsx
 "use client";
-
-import { useEffect, useRef } from "react";
-import { useMarketStore } from "@/store/useStore";
+import { useEffect } from 'react';
+import { useMarketStore } from '../store/useStore';
 
 export default function StoreInitializer() {
-  const hasLoaded = useRef(false);
+  const setContracts = useMarketStore((s) => s.setContracts);
 
   useEffect(() => {
-    // Only load once to prevent duplicate fetches in strict mode
-    if (!hasLoaded.current) {
-      useMarketStore.getState().loadData();
-      hasLoaded.current = true;
-    }
-  }, []);
+    fetch('/api/contracts') // Points to your Next.js route.ts
+      .then((res) => res.json())
+      .then((data) => {
+        if (Array.isArray(data) && data.length > 0) {
+          setContracts(data);
+        }
+      })
+      .catch((err) => console.error("Failed loading initial contracts", err));
+  }, [setContracts]);
 
   return null;
 }

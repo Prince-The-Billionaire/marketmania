@@ -174,8 +174,8 @@ export const useMarketStore = create<MarketState>((set, get) => ({
 }));
 
 // Add this helper near the top or bottom of your useStore file to calculate live value:
-export const getLivePositionValue = (position: any, contract: any) => {
-  if (!contract) return { totalValue: 0, yesValue: 0, noValue: 0 };
+export const getLivePositionValue = (position: UserPosition, contract?: MarketContract) => {
+  if (!contract) return { totalValue: 0, yesValue: 0, noValue: 0, yesPrice: 0, noPrice: 0 };
   
   const poolTotal = contract.yesSharesPool + contract.noSharesPool;
   const yesPrice = contract.noSharesPool / poolTotal; // current price of YES

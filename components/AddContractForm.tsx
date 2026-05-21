@@ -4,7 +4,7 @@ import { useMarketStore } from '../store/useStore';
 
 const AddContractForm = () => {
   const addContract = useMarketStore(s => s.addContract);
-  const [form, setForm] = useState({ title: '', category: 'Sports', prob: 50 });
+  const [form, setForm] = useState({ title: '', category: 'Sports', prob: 50, seed: 50000 });
 
   const handleAdd = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -13,7 +13,7 @@ const AddContractForm = () => {
       title: form.title,
       category: form.category,
       probability: form.prob,
-      volume: "₦0"
+      initialVolume: form.seed
     });
     alert("Saved to JSON and State!");
   };

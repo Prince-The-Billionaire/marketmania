@@ -41,7 +41,7 @@ const PredictionContracts = () => {
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
             className={`bg-white p-6 rounded-[2.5rem] border-2 transition-all cursor-pointer group flex flex-col justify-between h-56 ${
-              activeMarket.id === item.id ? 'border-purple-600 ring-4 ring-purple-50' : 'border-transparent hover:border-slate-200'
+              activeMarket?.id === item.id ? 'border-purple-600 ring-4 ring-purple-50' : 'border-transparent hover:border-slate-200'
             }`}
           >
             <div>
@@ -55,7 +55,7 @@ const PredictionContracts = () => {
             </div>
             
             <div className="flex items-center gap-4">
-              <div className="flex-grow h-2 bg-slate-100 rounded-full overflow-hidden">
+              <div className="grow h-2 bg-slate-100 rounded-full overflow-hidden">
                 <div 
                   className="h-full bg-purple-600 transition-all duration-1000" 
                   style={{ width: `${item.probability}%` }}

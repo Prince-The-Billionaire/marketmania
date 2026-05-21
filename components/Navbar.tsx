@@ -46,7 +46,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-5 mx-auto w-[90vw] z-50 flex items-center justify-between px-8 py-3 bg-white/60 backdrop-blur-xl border border-slate-200/60 rounded-2xl shadow-xl">
-      <div className="flex-shrink-0">
+      <div className="shrink-0">
         <Link href="/" className="text-slate-900 font-black text-xl tracking-tighter">
           MM <span className="font-light opacity-60 uppercase text-xs tracking-[0.2em] ml-1">Marketmania</span>
         </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
 
           {/* Portfolio Dashboard Dropdown */}
           {showPortfolio && (
-            <div className="absolute right-0 mt-3 w-96 bg-white border border-slate-100 rounded-3xl shadow-2xl p-6 z-50 max-h-[480px] overflow-y-auto">
+            <div className="absolute right-0 mt-3 w-96 bg-white border border-slate-100 rounded-3xl shadow-2xl p-6 z-50 max-h-120 overflow-y-auto">
               <div className="flex justify-between items-center mb-4">
                 <div className="flex items-center gap-2">
                   <TrendingUp className="w-5 h-5 text-purple-600" />
@@ -109,7 +109,7 @@ const Navbar = () => {
                     const contract = contracts.find((c) => c.id === pos.contractId);
                     if (!contract) return null;
                     
-                    const { totalValue, yesShares, noShares, yesPrice, noPrice } = getLivePositionValue(pos, contract);
+                    const { totalValue, yesPrice, noPrice } = getLivePositionValue(pos, contract);
 
                     return (
                       <div key={pos.contractId} className="p-4 bg-slate-50/80 rounded-2xl border border-slate-100 space-y-2">

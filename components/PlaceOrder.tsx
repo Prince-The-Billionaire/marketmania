@@ -9,7 +9,7 @@ const PlaceOrder = () => {
 
   if (!activeMarket) {
     return (
-      <div className="w-full lg:w-[380px] bg-white p-8 rounded-[2.5rem] border border-slate-100 text-center text-slate-400 font-bold">
+      <div className="w-full max-w-[380px] bg-white p-8 rounded-[2.5rem] border border-slate-100 text-center text-slate-400 font-bold">
         Select a market below to begin trading
       </div>
     );
@@ -33,7 +33,7 @@ const PlaceOrder = () => {
   };
 
   return (
-    <div className="w-full lg:w-[380px] bg-white p-8 rounded-[2.5rem] border border-slate-100 shadow-xl">
+    <div className="w-full max-w-[380px] bg-white p-6 sm:p-8 rounded-[2.5rem] border border-slate-100 shadow-xl">
       {/* Balance Indicator & Topup Action */}
       <div className="flex justify-between items-center mb-6 px-2">
         <div>

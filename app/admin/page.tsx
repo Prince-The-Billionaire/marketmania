@@ -31,8 +31,8 @@ export default function AdminPortal() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto py-16 px-6">
-      <div className="bg-white p-12 rounded-[3.5rem] border border-slate-100 shadow-sm">
+    <div className="px-4 py-16 sm:px-6 lg:px-8">
+      <div className="mx-auto w-full max-w-3xl bg-white p-8 sm:p-12 rounded-[3.5rem] border border-slate-100 shadow-sm">
         <h1 className="text-4xl font-black text-slate-900 mb-8">Create Liquid Market</h1>
         
         <form onSubmit={handlePost} className="space-y-6">
@@ -46,7 +46,7 @@ export default function AdminPortal() {
             />
           </div>
 
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
             <div className="space-y-2">
               <label className="text-[10px] font-black uppercase text-slate-400 ml-3">Category</label>
               <select 

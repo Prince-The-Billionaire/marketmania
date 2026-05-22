@@ -6,13 +6,15 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='relative w-screen  min-h-screen'>
-      <Navbar/>
-      <div className='mt-16 ml-12 flex flex-row'>
-        <HeroGraph/>
-        <PlaceOrder/>
-      </div>
-      <PredictionContracts/>
+    <div className='relative min-h-screen bg-slate-50'>
+      <Navbar />
+      <main className='mx-auto mt-16 flex max-w-[1400px] flex-col gap-10 px-4 pb-16 sm:px-6 lg:px-8'>
+        <div className='flex flex-col gap-8 lg:flex-row lg:items-start'>
+          <HeroGraph />
+          <PlaceOrder />
+        </div>
+        <PredictionContracts />
+      </main>
     </div>
   )
 }

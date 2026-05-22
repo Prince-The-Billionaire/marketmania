@@ -9,7 +9,7 @@ const HeroGraph = () => {
   if (!activeMarket) return null;
 
   return (
-    <div className="flex-grow bg-white p-8 rounded-[2.5rem] border border-slate-100 shadow-sm relative">
+    <div className="flex-grow min-w-0 bg-white p-6 sm:p-8 rounded-[2.5rem] border border-slate-100 shadow-sm relative">
       <div className="flex justify-between items-start mb-8">
         <div className="max-w-md">
           <span className="text-purple-500 text-[10px] font-black uppercase tracking-widest mb-1 block">{activeMarket.category}</span>
@@ -20,7 +20,7 @@ const HeroGraph = () => {
         </div>
       </div>
 
-      <div className="h-[340px] w-full relative">
+      <div className="h-[260px] w-full md:h-[340px] relative">
         {/* Numerical Volume Bottom-Left */}
         <div className="absolute bottom-4 left-2 z-10">
           <p className="text-[10px] font-black text-slate-400 uppercase tracking-tighter">Market Volume</p>

@@ -14,8 +14,8 @@ const PredictionContracts = () => {
   const filtered = filter === 'All' ? contracts : contracts.filter(c => c.category === filter);
 
   return (
-    <div className="mt-20 px-24">
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-10">
+    <div className="mt-20 px-4 sm:px-6 lg:px-24">
+      <div className="flex flex-col gap-4 md:flex-row md:items-center justify-between mb-10">
         <h2 className="text-3xl font-black tracking-tighter">Live Feed</h2>
         <div className="flex gap-2 overflow-x-auto pb-4 scrollbar-hide max-w-2xl">
           {categories.map(cat => (
